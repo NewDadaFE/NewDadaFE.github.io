@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .test {
+            color: #fff;
+            width: 100px;
+            height: 100px;
+        }
+
+        @media only screen and (min-width: 480px) {
+            .test {
+                background-color: black;
+            }
+        }
+
+
+        @media (min-resolution: 326dpi) {
+            .test {
+                background-color: blue;
+            }
+        }
+
+        @media (min-resolution: 401dpi) {
+            .test {
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test">我是测试的！！！</div>
+</body>
+</html>
